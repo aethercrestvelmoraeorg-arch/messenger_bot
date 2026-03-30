@@ -50,11 +50,3 @@ function sendMessage(senderId, text) {
 
 app.listen(3000);
 
-<html>
-  <head><title>Velmore Bot</title></head>
-    <body>
-      <h1>Velmore Messenger Bot</h1>
-      <p>This site is for privacy policy hosting.</p>
-      <a href="privacy.html">Privacy Policy</a>
-    </body>
-</html>
