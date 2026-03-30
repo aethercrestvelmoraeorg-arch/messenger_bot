@@ -27,9 +27,9 @@ app.post('/webhook', (req, res) => {
         const text = event.message.text.toLowerCase();
 
         if (text.includes("points")) {
-          sendMessage(senderId, "Naa kay 100 points 🎉");
+          sendMessage(senderId, "You have 100 points 🎉");
         } else {
-          sendMessage(senderId, "I-mention ko ug naay 'points'");
+          sendMessage(senderId, "Mention me if i have a points");
         }
       }
     });
@@ -49,3 +49,12 @@ function sendMessage(senderId, text) {
 }
 
 app.listen(3000);
+
+<html>
+  <head><title>Velmore Bot</title></head>
+    <body>
+      <h1>Velmore Messenger Bot</h1>
+      <p>This site is for privacy policy hosting.</p>
+      <a href="privacy.html">Privacy Policy</a>
+    </body>
+</html>
